@@ -1,0 +1,20 @@
+{
+    "Name": "Dataset of human medial temporal lobe neurons during a visual working memory task",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "We present an electrophysiological dataset recorded from thirteen subjects during a visual working memory task. Subjects were epilepsy patients undergoing intracranial monitoring for localization of epileptic seizures. Here, we recorded single neuron firing in 13 epilepsy patients (7 male) while they performed a visual working memory task. The task is a change detection task designed to examine the visual working memory of subjects. In each trial, arrays of colored squares were presented and had to be memorized. The number of squares determined the set size: 1, 2, 4 or 6. There was a total 192 trials per session. Each trial started with a warning signal (0.4 s) that was a red fixation dot. The fixation dot was then changed to black (0.4 \u2013 0.5 s, jittered). A memory array (encoding period, 0.8 s) was followed by a delay (retention interval, 0.9 s). After the delay, a test array was shown (2 s) followed by a jittered inter-trial interval of 1.3 to 2.3 s. The participants indicated by button press (\u201cSame\u201d or \u201cDifferent\u201d, forced choice) whether the test array differed from the memory array. If the arrays differed, only one square changed in colour, but all squares remained on the same location. The fixation dot was visible on the screen during the whole trial period. Eight different colours were used for the memory and test array (yellow, red, green, blue, magenta, cyan, grey, black). Before starting the sessions, participants conducted trial runs in a practice session to learn the task. In this session we verified if participants were colour-blind and could discriminate all colours. Practice sessions were repeated until the participant understood the task and was able to follow the pace of the trials.",
+    "DatasetType": "raw",
+    "Authors": [
+        "Klaver, Peter",
+        "Sarnthein, Johannes "
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.9.1.dev27+gf0fb7253c",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
